@@ -2,6 +2,3 @@ Hello, word!
 
 
 another hello
-
-
-sdfsdfsfsf
