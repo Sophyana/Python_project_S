@@ -2,7 +2,7 @@ a = []
 while str := input():
     a.append(eval(str))
 
-if any([len(line) != len(a) for line in a]):
+if any([len(line) != len(a) for line in a]): # allow use all via for
     print("No")
     exit()
 
