@@ -1,0 +1,5 @@
+cos = lambda x: -x
+sin = lambda x: x / 2
+F = Calc("sin(x)**2", "cos(x)**2", "x+y")
+print(F(123))
+

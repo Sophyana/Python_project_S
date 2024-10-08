@@ -1,0 +1,4 @@
+F = Calc("x", "2 * x + 1", "x / y")
+print(F(100))
+print(F(0.1))
+
