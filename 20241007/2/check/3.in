@@ -1,0 +1,1 @@
+print( subtract( ["Q", "WE", "RTY"], ["WE", "ZZ"] ))

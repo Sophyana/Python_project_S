@@ -13,5 +13,5 @@ def subtract(a, b):
         return type(a)(result)
 
 
-a, b = eval(input())
-print(subtract(a, b))
+import sys
+exec(sys.stdin.read())
