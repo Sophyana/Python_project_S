@@ -12,7 +12,7 @@ def process_definition(line):
     params = parts[1:-1]
     expr = parts[-1]
 
-    functions[func_name] = lambda *args, expr=expr, params=params: eval(expr, None, dict(zip(params, args)))
+    functions[func_name] = lambda *args, expr = expr, params = params: eval(expr, None, dict(zip(params, args)))
     func_count += 1
 
 
@@ -30,14 +30,15 @@ def process_call(line):
         result = functions[func_name](*args)
         print(result)
 
-while True:
-    line = input().strip()
+
+while line := input():
+    line = line.strip()
     line_count += 1
 
     if line.startswith(':'):
         process_definition(line)
     elif line.startswith('quit'):
-        _, format_str = line.split(maxsplit=1)
+        t, format_str = line.split(maxsplit=1)
         print(format_str.format(func_count, line_count))
         break
     else:

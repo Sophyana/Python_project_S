@@ -1,0 +1,8 @@
+:sin x tan(x)
+tan 11
+:decorate s "--<<{}>>--".format(s)
+decorate "ЖУЖЖАЛИЦА"
+sin 5
+quit "{}, {}"
+
+

@@ -1,0 +1,8 @@
+:cos x cos(x)
+sin 1
+:decorate s "---<<{}>>---".format(s)
+decorate "ТУЧКА"
+cos 2
+quit "{}, {}"
+
+
