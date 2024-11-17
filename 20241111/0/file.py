@@ -79,3 +79,4 @@ else:
 
 for x, y in Rectangle(1, 2, 5, 6):
     print(x, y)
+
