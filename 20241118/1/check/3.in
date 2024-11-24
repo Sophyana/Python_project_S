@@ -1,0 +1,3 @@
+a = DivStr("TGsyjSFSSghaSsfbVSsfj")
+print(* a // 4)
+print(* a % 10 // 6)
