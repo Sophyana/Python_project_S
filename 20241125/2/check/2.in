@@ -1,0 +1,10 @@
+class C:
+  num = Num()
+
+print(C().num)
+c, d, e = C(), C(), C()
+c.num = d.num = e.num = 5
+print(c.num + d.num)
+print(e.num+d.num)
+print(c.num + d.num + e.num)
+

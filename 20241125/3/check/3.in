@@ -1,0 +1,5 @@
+wo = Vowel(y=44, a=24, i=15)
+print(wo, wo.full)
+wo.e = wo.o = wo.u = 1254
+print(wo, wo.full)
+

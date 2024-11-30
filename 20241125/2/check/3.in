@@ -1,0 +1,16 @@
+class C:
+  num = Num()
+
+print(C().num)
+c = C()
+print(c.num)
+c.num = 100500
+print(c.num)
+d = C()
+d.num = 100
+print(d.num)
+print(c.num + d.num)
+c.num = "queue"
+print(c.num + d.num)
+d.num = "to"
+print(c.num + d.num)
