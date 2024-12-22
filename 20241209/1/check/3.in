@@ -1,0 +1,10 @@
+class C(metaclass=dump):
+    def __init__(self, val):
+       self.val = val
+       print(f"Hello, {self.val}")
+    
+c = C(10)
+print("Bye!")
+
+
+

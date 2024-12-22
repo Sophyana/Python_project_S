@@ -1,0 +1,15 @@
+11:18:52 17.12.2024 [                  git.cmd]: |  DEBUG|: Popen(['git', 'version'], cwd=C:\Users\ASUS\Python_project_S, stdin=None, shell=False, universal_newlines=False)
+11:18:52 17.12.2024 [                  git.cmd]: |  DEBUG|: Popen(['git', 'version'], cwd=C:\Users\ASUS\Python_project_S, stdin=None, shell=False, universal_newlines=False)
+11:18:52 17.12.2024 [ depot.database.functions]: |  DEBUG|: Stored UpdateTime: ID=Imap deliver, timestamp=2024-12-17 11:18:52.690514
+11:19:10 17.12.2024 [                  git.cmd]: |  DEBUG|: Popen(['git', 'version'], cwd=C:\Users\ASUS\Python_project_S, stdin=None, shell=False, universal_newlines=False)
+11:19:10 17.12.2024 [                  git.cmd]: |  DEBUG|: Popen(['git', 'version'], cwd=C:\Users\ASUS\Python_project_S, stdin=None, shell=False, universal_newlines=False)
+11:19:11 17.12.2024 [ depot.database.functions]: |  DEBUG|: Stored UpdateTime: ID=Imap deliver, timestamp=2024-12-17 11:19:11.041991
+11:25:30 17.12.2024 [                  git.cmd]: |  DEBUG|: Popen(['git', 'version'], cwd=C:\Users\ASUS\Python_project_S, stdin=None, shell=False, universal_newlines=False)
+11:25:30 17.12.2024 [                  git.cmd]: |  DEBUG|: Popen(['git', 'version'], cwd=C:\Users\ASUS\Python_project_S, stdin=None, shell=False, universal_newlines=False)
+11:25:30 17.12.2024 [ depot.database.functions]: |  DEBUG|: Stored UpdateTime: ID=Imap deliver, timestamp=2024-12-17 11:25:30.432639
+11:27:33 17.12.2024 [                  git.cmd]: |  DEBUG|: Popen(['git', 'version'], cwd=C:\Users\ASUS\Python_project_S, stdin=None, shell=False, universal_newlines=False)
+11:27:33 17.12.2024 [                  git.cmd]: |  DEBUG|: Popen(['git', 'version'], cwd=C:\Users\ASUS\Python_project_S, stdin=None, shell=False, universal_newlines=False)
+11:27:33 17.12.2024 [ depot.database.functions]: |  DEBUG|: Stored UpdateTime: ID=Imap deliver, timestamp=2024-12-17 11:27:33.543624
+11:28:28 17.12.2024 [                  git.cmd]: |  DEBUG|: Popen(['git', 'version'], cwd=C:\Users\ASUS\Python_project_S, stdin=None, shell=False, universal_newlines=False)
+11:28:29 17.12.2024 [                  git.cmd]: |  DEBUG|: Popen(['git', 'version'], cwd=C:\Users\ASUS\Python_project_S, stdin=None, shell=False, universal_newlines=False)
+11:28:29 17.12.2024 [ depot.database.functions]: |  DEBUG|: Stored UpdateTime: ID=Imap deliver, timestamp=2024-12-17 11:28:29.125830
