@@ -1,0 +1,8 @@
+store 100 i
+store 1 I
+store 1 f
+
+add I f e
+add f i i
+add i e i
+out i

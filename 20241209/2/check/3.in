@@ -1,0 +1,7 @@
+store 10 i
+store 8 f
+
+mul i f e
+div i f f
+add e f i
+out i
