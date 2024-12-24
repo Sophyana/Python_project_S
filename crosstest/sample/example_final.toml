@@ -98,7 +98,7 @@ course_name = "Kapibarology"
 secret_cookie = "kapibara"
 static_folder = "static"
 url_prefix = ""
-SECRET_KEY = "2b3443882faea3bed9cc6ebdeb5da34840d8b115212763c940738cd299c28ac3"
+SECRET_KEY = "ad2bb79340b256a9727e98b9a39d70c764b9c19a16bae471fe02c76f0f4bb1ae"
 
 [score]
 score_directory = "scores"

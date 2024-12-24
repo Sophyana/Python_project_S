@@ -1,0 +1,45 @@
+13:04:30 24.12.2024 [              deliver.git]: |   INFO|: Downloading (or updating) all repos and store them
+13:04:30 24.12.2024 [              deliver.git]: |   INFO|: Updating all repos
+13:07:14 24.12.2024 [                     make]: |   INFO|: Parse and store all homeworks...
+13:07:15 24.12.2024 [                     make]: |   INFO|: Run new checks on all solutions...
+13:07:53 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Багров Александр_20241210_1.py to die
+13:07:58 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Багров Александр_20241210_1.py to die
+13:08:03 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Багров Александр_20241210_1.py to die
+13:08:08 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Багров Александр_20241210_1.py to die
+13:08:13 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Багров Александр_20241210_1.py to die
+13:08:18 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Багров Александр_20241210_1.py to die
+13:08:40 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Есауленко Софья_20241216_1.py to die
+13:08:46 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Есауленко Софья_20241216_1.py to die
+13:08:51 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Есауленко Софья_20241216_1.py to die
+13:08:53 24.12.2024 [                    score]: |WARNING|: Empty task_qualifier file
+13:08:53 24.12.2024 [                    score]: |WARNING|: Empty user_qualifier file
+13:08:53 24.12.2024 [                    score]: |WARNING|: Empty formula file
+13:08:53 24.12.2024 [                    score]: |   INFO|: Importing user functions...
+13:08:53 24.12.2024 [                    score]: |   INFO|: Performing all imported qualifiers...
+13:09:15 24.12.2024 [                    score]: |   INFO|: Importing user functions...
+13:09:15 24.12.2024 [                    score]: |   INFO|: Performing all imported qualifiers...
+13:09:27 24.12.2024 [                  publish]: |   INFO|: Publish initializing...
+13:09:27 24.12.2024 [                 waitress]: |   INFO|: Serving on http://0.0.0.0:8080
+13:10:04 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /                                                  HTTP/1.1" 200
+13:10:04 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /static/night_mode.js                              HTTP/1.1" 200
+13:10:04 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /static/base.css                                   HTTP/1.1" 200
+13:10:07 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /static/favicon.ico                                HTTP/1.1" 200
+13:12:22 24.12.2024 [                  publish]: |   INFO|: Publish initializing...
+13:12:22 24.12.2024 [                 waitress]: |   INFO|: Serving on http://0.0.0.0:8080
+13:12:28 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /                                                  HTTP/1.1" 200
+13:12:28 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /static/base.css                                   HTTP/1.1" 304
+13:12:28 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /static/night_mode.js                              HTTP/1.1" 304
+13:12:37 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /static/favicon.ico                                HTTP/1.1" 304
+13:12:40 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /                                                  HTTP/1.1" 200
+13:12:40 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /static/night_mode.js                              HTTP/1.1" 304
+13:12:40 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /static/base.css                                   HTTP/1.1" 304
+13:12:48 24.12.2024 [                     wsgi]: |   INFO|:       127.0.0.1 - "GET /static/favicon.ico                                HTTP/1.1" 304
+13:13:04 24.12.2024 [                     make]: |   INFO|: Run new checks on all solutions...
+13:13:25 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Багров Александр_20241210_1.py to die
+13:13:30 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Багров Александр_20241210_1.py to die
+13:13:35 24.12.2024 [            check.runtime]: |WARNING|: Waiting 1 seconds for C:\Users\ASUS\AppData\Local\Temp\hworker_check\Багров Александр_20241210_1.py to die
+13:13:53 24.12.2024 [                    score]: |   INFO|: Importing user functions...
+13:13:53 24.12.2024 [                    score]: |   INFO|: Performing all imported qualifiers...
+13:14:59 24.12.2024 [              control.cli]: |  ERROR|: Unknown object 'traskscore'
+13:15:16 24.12.2024 [                    score]: |   INFO|: Importing user functions...
+13:15:16 24.12.2024 [                    score]: |   INFO|: Performing all imported qualifiers...
