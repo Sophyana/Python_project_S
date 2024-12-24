@@ -1,4 +1,4 @@
 l = eval(input())
 l.sort()
-print(l)
+print(*[i for i in l], sep=", ")
 
