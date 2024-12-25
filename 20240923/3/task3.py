@@ -1,9 +1,9 @@
-n = int(input())
+n = eval(input())
 i = j = 0
 while i < 3:
     while j < 3:
         p = (n + i) * (n + j)
-        print((n + i), " * ", (n + j), " = ", end = " ")
+        print((n + i), "*", (n + j), "=", end = " ")
         t = p
         s = 0
         while t != 0:
@@ -12,9 +12,9 @@ while i < 3:
             t = t[0]
 
         if s == 6:
-            print(":=)", end = "  ")
+            print(":=)", end = " ")
         else:
-            print(p, end = "   ")
+            print(p, end = " ")
         j += 1
     print()
     i += 1

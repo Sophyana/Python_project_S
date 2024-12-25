@@ -1,4 +1,4 @@
-x = int(input())
+x = eval(input())
 a = b = c = 0
 if x % 2 == 0 and x % 25 == 0:
     print("A + ", end = " ")
