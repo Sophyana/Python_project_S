@@ -5,157 +5,501 @@
 [modules]
 deliver = [
     "git",
+    "file",
 ]
 
+[file]
+root_path = "repo"
+users = {"Admin" = "teacher"}
+
 [git]
-directory = "hworker_personal"
+directory = "hworker_prac2_git"
 
 [git.users]
-"Багров Александр" = "https://github.com/Priestprog/bagrov_python_prac.git"
+# "Курячий Георгий" = "https://git.cs.msu.ru/gkuryachiy/prac2024.git"
 "Есауленко Софья" = "https://github.com/Sophyana/Python_project_S.git"
+"Багров Александр" = "https://github.com/Priestprog/bagrov_python_prac.git"
 
 [tasks._default]
-time_limit = 2
+soft_deadline_delta = "open_date+7d"
+hard_deadline_delta = "open_date+14d"
+
+[tasks."20240910/0"]
+deliver_ID = "20240910/0"
+open_date = 2024-09-10 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
 
 [tasks."20240910/1"]
+deliver_ID = "20240910/1"
 open_date = 2024-09-10
-[tasks."20240923/1"]
-open_date = 2024-09-23
-[tasks."20240923/2"]
-open_date = 2024-09-23
-[tasks."20240923/3"]
-open_date = 2024-09-23
-[tasks."20240930/1"]
-open_date = 2024-09-30
-[tasks."20240930/2"]
-open_date = 2024-09-30
-[tasks."20240930/3"]
-open_date = 2024-09-30
-[tasks."20241007/1"]
-open_date = 2024-10-07
-[tasks."20241007/2"]
-open_date = 2024-10-07
-[tasks."20241007/3"]
-open_date = 2024-10-07
-[tasks."20241014/1"]
-open_date = 2024-10-14
-[tasks."20241014/2"]
-open_date = 2024-10-14
-[tasks."20241014/3"]
-open_date = 2024-10-14
-[tasks."20241021/1"]
-open_date = 2024-10-21
-[tasks."20241021/2"]
-open_date = 2024-10-21
-[tasks."20241021/3"]
-open_date = 2024-10-21
-[tasks."20241028/1"]
-open_date = 2024-10-28
-[tasks."20241028/2"]
-open_date = 2024-10-28
-[tasks."20241028/3"]
-open_date = 2024-10-28
-[tasks."20241111/1"]
-open_date = 2024-11-11
-[tasks."20241111/2"]
-open_date = 2024-11-11
-[tasks."20241111/3"]
-open_date = 2024-11-11
-[tasks."20241118/1"]
-open_date = 2024-11-18
-[tasks."20241118/2"]
-open_date = 2024-11-18
-[tasks."20241118/3"]
-open_date = 2024-11-18
-[tasks."20241125/1"]
-open_date = 2024-11-25
-[tasks."20241125/2"]
-open_date = 2024-11-25
-[tasks."20241125/3"]
-open_date = 2024-11-25
-[tasks."20241202/1"]
-open_date = 2024-12-02
-[tasks."20241202/2"]
-open_date = 2024-12-02
-[tasks."20241202/3"]
-open_date = 2024-12-02
-[tasks."20241209/1"]
-open_date = 2024-12-09
-[tasks."20241209/2"]
-open_date = 2024-12-09
-[tasks."20241216/1"]
-open_date = 2024-12-16
-[tasks."20241216/2"]
-open_date = 2024-12-16
-[tasks."20240917/1"]
-open_date = 2024-09-17
-[tasks."20240917/2"]
-open_date = 2024-09-17
-[tasks."20240917/3"]
-open_date = 2024-09-17
-[tasks."20240924/1"]
-open_date = 2024-09-24
-[tasks."20240924/2"]
-open_date = 2024-09-24
-[tasks."20240924/3"]
-open_date = 2024-09-24
-[tasks."20241001/1"]
-open_date = 2024-10-01
-[tasks."20241001/2"]
-open_date = 2024-10-01
-[tasks."20241001/3"]
-open_date = 2024-10-01
-[tasks."20241008/1"]
-open_date = 2024-10-08
-[tasks."20241008/2"]
-open_date = 2024-10-08
-[tasks."20241008/3"]
-open_date = 2024-10-08
-[tasks."20241015/1"]
-open_date = 2024-10-15
-[tasks."20241015/2"]
-open_date = 2024-10-15
-[tasks."20241015/3"]
-open_date = 2024-10-15
-[tasks."20241022/1"]
-open_date = 2024-10-22
-[tasks."20241022/2"]
-open_date = 2024-10-22
-[tasks."20241022/3"]
-open_date = 2024-10-22
-[tasks."20241105/1"]
-open_date = 2024-11-05
-[tasks."20241105/2"]
-open_date = 2024-11-05
-[tasks."20241105/3"]
-open_date = 2024-11-05
-[tasks."20241112/1"]
-open_date = 2024-11-12
-[tasks."20241112/2"]
-open_date = 2024-11-12
-[tasks."20241112/3"]
-open_date = 2024-11-12
-[tasks."20241119/1"]
-open_date = 2024-11-19
-[tasks."20241119/2"]
-open_date = 2024-11-19
-[tasks."20241119/3"]
-open_date = 2024-11-19
-[tasks."20241126/1"]
-open_date = 2024-11-26
-[tasks."20241126/2"]
-open_date = 2024-11-26
-[tasks."20241126/3"]
-open_date = 2024-11-26
-[tasks."20241203/1"]
-open_date = 2024-12-03
-[tasks."20241203/2"]
-open_date = 2024-12-03
-[tasks."20241210/1"]
-open_date = 2024-12-10
-[tasks."20241210/2"]
-open_date = 2024-12-10
+checks = {"Admin:20240910/1/deadline" = []}
 
+[tasks."20240923/0"]
+deliver_ID = "20240923/0"
+open_date = 2024-09-23 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20240923/1"]
+deliver_ID = "20240923/1"
+open_date = 2024-09-23
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20240923/2"]
+deliver_ID = "20240923/2"
+open_date = 2024-09-23
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20240923/3"]
+deliver_ID = "20240923/3"
+open_date = 2024-09-23
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20240930/0"]
+deliver_ID = "20240930/0"
+open_date = 2024-09-30 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20240930/1"]
+deliver_ID = "20240930/1"
+open_date = 2024-09-30
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20240930/2"]
+deliver_ID = "20240930/2"
+open_date = 2024-09-30
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20240930/3"]
+deliver_ID = "20240930/3"
+open_date = 2024-09-30
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241007/0"]
+deliver_ID = "20241007/0"
+open_date = 2024-10-07 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241007/1"]
+deliver_ID = "20241007/1"
+open_date = 2024-10-07
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241007/2"]
+deliver_ID = "20241007/2"
+open_date = 2024-10-07
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241007/3"]
+deliver_ID = "20241007/3"
+open_date = 2024-10-07
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241014/0"]
+deliver_ID = "20241014/0"
+open_date = 2024-10-14 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241014/1"]
+deliver_ID = "20241014/1"
+open_date = 2024-10-14
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241014/2"]
+deliver_ID = "20241014/2"
+open_date = 2024-10-14
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241014/3"]
+deliver_ID = "20241014/3"
+open_date = 2024-10-14
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241021/0"]
+deliver_ID = "20241021/0"
+open_date = 2024-10-21 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241021/1"]
+deliver_ID = "20241021/1"
+open_date = 2024-10-21
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241021/2"]
+deliver_ID = "20241021/2"
+open_date = 2024-10-21
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241021/3"]
+deliver_ID = "20241021/3"
+open_date = 2024-10-21
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241028/0"]
+deliver_ID = "20241028/0"
+open_date = 2024-10-28 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241028/1"]
+deliver_ID = "20241028/1"
+open_date = 2024-10-28
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241028/2"]
+deliver_ID = "20241028/2"
+open_date = 2024-10-28
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241028/3"]
+deliver_ID = "20241028/3"
+open_date = 2024-10-28
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241111/0"]
+deliver_ID = "20241111/0"
+open_date = 2024-11-11 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241111/1"]
+deliver_ID = "20241111/1"
+open_date = 2024-11-11
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241111/2"]
+deliver_ID = "20241111/2"
+open_date = 2024-11-11
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241111/3"]
+deliver_ID = "20241111/3"
+open_date = 2024-11-11
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241118/0"]
+deliver_ID = "20241118/0"
+open_date = 2024-11-18 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241118/1"]
+deliver_ID = "20241118/1"
+open_date = 2024-11-18
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241118/2"]
+deliver_ID = "20241118/2"
+open_date = 2024-11-18
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241118/3"]
+deliver_ID = "20241118/3"
+open_date = 2024-11-18
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241125/0"]
+deliver_ID = "20241125/0"
+open_date = 2024-11-25 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241125/1"]
+deliver_ID = "20241125/1"
+
+open_date = 2024-11-25
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241125/2"]
+deliver_ID = "20241125/2"
+
+open_date = 2024-11-25
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241125/3"]
+deliver_ID = "20241125/3"
+
+open_date = 2024-11-25
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241202/0"]
+deliver_ID = "20241202/0"
+open_date = 2024-12-02 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241202/1"]
+deliver_ID = "20241202/1"
+open_date = 2024-12-02
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241202/2"]
+deliver_ID = "20241202/2"
+open_date = 2024-12-02
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241202/3"]
+
+open_date = 2024-12-02
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241209/0"]
+deliver_ID = "20241209/0"
+open_date = 2024-12-09 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241209/1"]
+deliver_ID = "20241209/1"
+open_date = 2024-12-09
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241209/2"]
+deliver_ID = "20241209/2"
+open_date = 2024-12-09
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241216/0"]
+deliver_ID = "20241216/0"
+open_date = 2024-12-16 18:00:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241216/1"]
+deliver_ID = "20241216/1"
+open_date = 2024-12-16
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241216/2"]
+deliver_ID = "20241216/2"
+open_date = 2024-12-16
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20240917/0"]
+deliver_ID = "20240917/0"
+open_date = 2024-09-17 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20240917/1"]
+deliver_ID = "20240917/1"
+open_date = 2024-09-17
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20240917/2"]
+deliver_ID = "20240917/2"
+open_date = 2024-09-17
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20240917/3"]
+deliver_ID = "20240917/3"
+open_date = 2024-09-17
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20240924/0"]
+deliver_ID = "20240924/0"
+open_date = 2024-09-24 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20240924/1"]
+deliver_ID = "20240924/1"
+open_date = 2024-09-24
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20240924/2"]
+deliver_ID = "20240924/2"
+open_date = 2024-09-24
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20240924/3"]
+deliver_ID = "20240924/3"
+open_date = 2024-09-24
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241001/0"]
+deliver_ID = "20241001/0"
+open_date = 2024-10-01 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241001/1"]
+deliver_ID = "20241001/1"
+open_date = 2024-10-01
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241001/2"]
+deliver_ID = "20241001/2"
+open_date = 2024-10-01
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241001/3"]
+deliver_ID = "20241001/3"
+open_date = 2024-10-01
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241008/0"]
+deliver_ID = "20241008/0"
+open_date = 2024-10-08 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241008/1"]
+deliver_ID = "20241008/1"
+open_date = 2024-10-08
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241008/2"]
+deliver_ID = "20241008/2"
+open_date = 2024-10-08
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241008/3"]
+deliver_ID = "20241008/3"
+open_date = 2024-10-08
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241015/0"]
+deliver_ID = "20241015/0"
+open_date = 2024-10-15 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241015/1"]
+deliver_ID = "20241015/1"
+open_date = 2024-10-15
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241015/2"]
+deliver_ID = "20241015/2"
+open_date = 2024-10-15
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241015/3"]
+deliver_ID = "20241015/3"
+open_date = 2024-10-15
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241022/0"]
+deliver_ID = "20241022/0"
+open_date = 2024-10-22 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241022/1"]
+deliver_ID = "20241022/1"
+open_date = 2024-10-22
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241022/2"]
+deliver_ID = "20241022/2"
+open_date = 2024-10-22
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241022/3"]
+deliver_ID = "20241022/3"
+open_date = 2024-10-22
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241105/0"]
+deliver_ID = "20241105/0"
+open_date = 2024-11-05 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241105/1"]
+deliver_ID = "20241105/1"
+open_date = 2024-11-05
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241105/2"]
+deliver_ID = "20241105/2"
+open_date = 2024-11-05
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241105/3"]
+deliver_ID = "20241105/3"
+open_date = 2024-11-05
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241112/0"]
+deliver_ID = "20241112/0"
+open_date = 2024-11-12 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241112/1"]
+deliver_ID = "20241112/1"
+open_date = 2024-11-12
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241112/2"]
+deliver_ID = "20241112/2"
+open_date = 2024-11-12
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241112/3"]
+deliver_ID = "20241112/3"
+open_date = 2024-11-12
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241119/0"]
+deliver_ID = "20241119/0"
+open_date = 2024-11-19 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241119/1"]
+deliver_ID = "20241119/1"
+soft_deadline_delta = "open_date+9d"
+open_date = 2024-11-19
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241119/2"]
+deliver_ID = "20241119/2"
+soft_deadline_delta = "open_date+9d"
+open_date = 2024-11-19
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241119/3"]
+deliver_ID = "20241119/3"
+soft_deadline_delta = "open_date+9d"
+open_date = 2024-11-19
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241126/0"]
+deliver_ID = "20241126/0"
+open_date = 2024-11-26 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241126/1"]
+deliver_ID = "20241126/1"
+open_date = 2024-11-26
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241126/2"]
+deliver_ID = "20241126/2"
+open_date = 2024-11-26
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241126/3"]
+soft_deadline_delta = "open_date+9d"
+open_date = 2024-11-26
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241203/0"]
+deliver_ID = "20241203/0"
+open_date = 2024-12-03 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+[tasks."20241203/1"]
+deliver_ID = "20241203/1"
+open_date = 2024-12-03
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241203/2"]
+deliver_ID = "20241203/2"
+open_date = 2024-12-03
+checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241210/0"]
+deliver_ID = "20241210/0"
+open_date = 2024-12-10 10:30:00
+checks = {"Admin:20240910/0/attendance" = []}
+
+# [tasks."20241210/1"]
+# deliver_ID = "20241210/1"
+# open_date = 2024-12-10
+# time_limit = 2
+# checks = {"Admin:20240910/1/deadline" = []}
+
+[tasks."20241210/2"]
+deliver_ID = "20241210/2"
+open_date = 2024-12-10
+checks = {"Admin:20240910/1/deadline" = []}
 
 [score]
 score_directory = "scores"
@@ -164,5 +508,7 @@ score_directory = "scores"
 directory = "hworker_check"
 
 [publish]
-course_name = "My prac"
+port = 8080
+course_name = "Практикум 321 / осень 2024."
 SECRET_KEY = "8556aa9cfdd8c8e0884d1b2568985789372281093f338caf5cc145fdb9e5f7b5"
+url_prefix = "prac"
