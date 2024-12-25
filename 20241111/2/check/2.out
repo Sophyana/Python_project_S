@@ -1,4 +1,4 @@
 a(True):2.5 b(True):2.0 c(True):3.0
-a < b=False, b < c=True, a < c=True
-a in b=False, b in c=False, a in c=False
-a & b=False, b & c=False, a & a=True
+a < b = False, b < c = True, a < c = True
+a in b = False, b in c = False, a in c = False
+a & b = False, b & c = False, a & a = True
